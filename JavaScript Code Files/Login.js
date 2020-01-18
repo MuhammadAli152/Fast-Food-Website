@@ -1,15 +1,11 @@
-function contactus()                                    
-    { 
-    var name = document.forms["form1"]["name"];       
-    var email = document.forms["form1"]["email"];    
-    var message = document.forms["form1"]["message"];    
+ function validatelogin()                                    
+    {       
+    var email = document.forms["login1"]["email"];    
+    var password = document.forms["login1"]["password"];     
    
-    if (name.value == "")                                  
-    { 
-        window.alert("Please enter your Name."); 
-        name.focus(); 
-        return false; 
-    }   
+   
+   
+   
     if (email.value == "")                                   
     { 
         window.alert("Please enter a valid e-mail address."); 
@@ -30,13 +26,13 @@ function contactus()
         email.focus(); 
         return false; 
     } 
-   if (message.value == "")                                  
+   
+     if (password.value == "")                                  
     { 
-        window.alert("Please enter something in comment box"); 
-        message.focus(); 
+        window.alert("Please enter your password."); 
+        password.focus(); 
         return false; 
     } 
-   
-   
+    
     return true; 
 }
