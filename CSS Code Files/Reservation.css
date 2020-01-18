@@ -1,0 +1,43 @@
+body{
+	   background-color: #000000; 
+       background-image: url("../Images/Reservation/Reservation.jpg"); 
+       background-repeat: no-repeat; 
+       background-attachment: fixed; 
+       background-position: center;
+       background-size: 1360px;
+       
+}
+.d5{
+	padding-left: 95px;
+	padding-top: 40px;
+	align-content: all;
+	margin-left: 400px;
+	margin-top: 120px;
+	margin-right: 400px;  
+	border: 1px solid black;
+	border-radius: 20px;
+	background: rgba(0, 0, 0, 0.6 );
+	/*rgba(red, green, blue, alpha)*/
+	color: white;
+	height: 950px
+}
+.i1{
+	width: 375px;
+	
+}
+.i2{
+	width: 160px
+}
+.s1{
+	font-size: 25px
+}
+.s2{
+	font-size: 15px
+}
+.b1{
+
+}
+.d4{
+	padding-left: 270px
+	
+}

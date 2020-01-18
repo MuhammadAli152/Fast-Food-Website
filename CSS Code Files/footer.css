@@ -1,0 +1,54 @@
+.logo{
+	width: 200px;
+	height: 100px;
+}
+.d1{
+	margin-top: 400px;
+	;
+	border: 1px solid none;
+	background: rgba(0, 0, 0, 0.8 );
+	/*rgba(red, green, blue, alpha)*/
+	color: white;
+	height: 400px;
+	padding-left: 50px
+}
+.tr1{
+	padding-left: 80px;
+	padding-top: 20px
+}
+.tr2{
+	padding-top: 20px;
+	width: 30px;
+	height: 30px
+}
+.tr2:hover{
+	width: 40px;
+	height: 40px
+}
+
+.d2{
+	padding-top: 15px;
+	text-align: center;
+	margin-bottom: 0px;		
+	height: 50px;
+	border: 1px solid black;
+	background: rgba(0, 0, 0, 0.9 );
+	/*rgba(red, green, blue, alpha)*/
+	color: white
+}
+
+a:link {
+  color: darkgreen;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+.table1{
+	margin:auto;
+}

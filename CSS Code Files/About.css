@@ -1,1 +1,97 @@
+body{
+	   background-color: #000000; 
+       background-image: url("../Images/About/blog.jpg"); 
+       background-repeat: no-repeat; 
+       background-attachment: fixed; 
+       background-position: center;
+       background-size: 1360px;
+       
+}
 
+.im1{
+  margin-top: 100px;
+	width: 700px;
+	overflow: hidden;
+	clip-path: circle(200px at center);
+	height: auto
+}
+.h1{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 68px;
+    color:green;
+    font-weight: bold
+}
+.p1{
+  padding-top:0px;
+  padding-left:70px; 
+  text-align: justify;
+  font-size: 22px
+}
+.h1{
+  text-align: center;
+  margin-top: 80px;
+  position: relative;
+  font-family: 'Tangerine', serif;
+  font-size: 8em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, yellow, orange, red);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 2s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+.ndiv{
+  padding-top: 70px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ /*text-align: center;*/
+  
+ /*text-shadow: 0px 15px 10px #000;*/
+  
+  -webkit-animation-name: tekst;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite; 
+}
+@keyframes tekst {
+  from {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,  
+                 0 15px 10px #000;
+    
+  }
+
+  to {
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px);
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,  
+                 0 5px 10px #000,
+                 0 25px 15px #000;
+  }
+}
