@@ -1,11 +1,15 @@
+<!DOCTYPEhtml>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About</title>
-	<link rel="stylesheet" type="text/css" href="C:\Users\Muhammad Faraz Ahsan\Desktop\Web Projects\Tasty Pizza\CSS/About.css">
+	<title>Reservation</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\Muhammad Faraz Ahsan\Desktop\Web Projects\Tasty Pizza\CSS/Reservation.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 	<link rel="stylesheet" type="text/css" href="C:\Users\Muhammad Faraz Ahsan\Desktop\Web Projects\Tasty Pizza\CSS/footer.css">
 	<link rel="stylesheet" type="text/css" href="C:\Users\Muhammad Faraz Ahsan\Desktop\Web Projects\Tasty Pizza\CSS/Navigation_Bar.css">
+	<script src="C:\wamp64\www\Tasty Pizza\JavaScript/Reservation.js" type="text/javascript">
+   
+	</script>
 </head>
 <body>
 	<table class="ta1" cellpadding="1">
@@ -30,20 +34,39 @@
 </td>
 	</tr>
 </table>
-<table>
-	<tr>
-		<td style="color: white";>
-			<h1 class="h1">About Us</h1>
-			<p class="p1">Tasty Pizza is a fast food restaurant which provide quality food to its customers. Tasty Pizza provide a wide range of pizzas, burgers, shawarmas, beverages,coffee and much more. Tasty was found in july 2019. Its first branch was open in Islambad and the second branch is opening soon in Lahore. One of the leading fact about Tasty Pizza is that it does not compromise in the quality of food and always provide hygienic and healthy food with best quality to its customers. Tasty Pizza is opening kids zone for the kids who get bore in the restaurant. The kids zone will open soon. Tasty Pizza decided to start cooking classess for those who want to learn making of pizza and other fast food. Tasty Pizza usaully organized contests for its customers such as pizza eating contest. This brings people closer to us. Tasty pizza always take care of its customers and never let them have any complain about it.  </p>
+<div class="d5">
+	<span class="s1">RESERVE A TABLE</span><br><br>
+	<span class="s2">AND EXPERIENCE OUR TASTE IN A PEACEFUL PLACE</span><br><br>
+	<form name="reservation" method="post" action="#" onsubmit="return validatereservation()">
+		Name:<br>
+		<input id="n" class="i1" type="text" name="name" placeholder="Enter Name"><br><br>
+		Email:<br>
+		<input class="i1" type="email" name="email" placeholder="Enter Email"><br><br>
+		Phone:<br>
+		<input class="i1" type="tel" name="phone" placeholder="Enter Phone Number"><br><br>
+		How would you prefer to get your reservation approval?<br>
+		<input type="radio" name="preference">Email
+		<input type="radio" name="preference">phone<br><br>
+		Date of Reservation:<br>
+		<input class="i1" type="datetime-local" name="date"><br><br>
+		Time of Reservation:<br>
+		<input class="i1" type="time" name="time"><br><br>
+		Where would you like to sit?<br>
+		<input type="radio" name="place">Inside
+		<input type="radio" name="place">Outside<br><br>
+		Sitting preference:<br>
+		<input type="radio" name="area">Table
+		<input type="radio" name="area">Booth<br><br>
+		No of Persons:<br>
+		<input class="i1" type="number" name="quantity" min="1" max="10"><br><br>
+		Notes(Optional):<br>
+		<textarea class="i1" rows="10" cols="50" placeholder="Write from here..."></textarea><br><br>
+		<input type="checkbox" name="checkbox">I have read and agree to the <a href="">terms and conditions</a> and<br>  <a href="">privacy policy</a><br><br>
+		<div class="d4"><input type="submit" value="Make Reservation" class="b1" ></div>
+	</form>
+	
 
-		
-		</td>
-		<td class="ndiv"><div class="circle"><img class="im1" src="C:\Users\Muhammad Faraz Ahsan\Desktop\Web Projects\Tasty Pizza\Images\About/contactus.jpg"></div></td>
-	</tr>
-</table>
-
-
-
+</div>
 <div class="d1">
 	<p align="center"><img class="logo" src="C:\Users\Muhammad Faraz Ahsan\Desktop\Web Projects\Tasty Pizza\Images\Home/logo.png"></p>
 <table border="0" cellpadding="10">
